@@ -40,12 +40,12 @@ const InputTodos = () => {
           </Button>{" "}
         </div>
         {nameTodos.length === 0 ? (
-          <p className="block text-red-700 text-[14px]">*Nhap cong viec</p>
+          <p className="block text-red-700 text-[14px]">*add cong viec</p>
         ) : (
           <p className="hidden">Nhap con viec</p>
         )}
       </div>
-
+      <p>Them 1 dong o day de de mo</p>
       {todosList.length === 0 ? (
         <p className="text-3xl mt-5 text-white text-center">NO DATA</p>
       ) : (
